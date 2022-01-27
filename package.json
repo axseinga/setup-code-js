@@ -1,11 +1,19 @@
 {
-  "name": "setup-code-webpack",
-  "version": "1.0.0",
-  "description": "Setup code with webpack config for project in html/css/js with dart-sass",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Agnieszka Urbanowicz",
-  "license": "ISC"
+    "name": "setup-code-webpack",
+    "version": "1.0.0",
+    "description": "Setup code with webpack config for project in html/css/js with dart-sass",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --mode development --open",
+        "build": "webpack --mode production"
+    },
+    "author": "Agnieszka Urbanowicz",
+    "license": "ISC",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.5.0",
+        "webpack": "^5.67.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.3"
+    }
 }
