@@ -3,7 +3,7 @@
 ## Table of contents
 
 -   [Overview](#overview)
-    -   [Project](#the-challenge)
+    -   [Project](#the-project)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
 -   [My process](#my-process)
@@ -16,6 +16,16 @@
 ## Overview
 
 ### The project
+
+Hi there!
+
+I created this boilerplate code and setup to not have to go over every time with webpack configuration. It is all ready for coding projects with HTML/CSS/JS with use of scscc (dart-sass with @use and @forward).
+
+Please feel free to use it and change it if you want.
+
+Tested and deployed to Netlify.
+
+Monster picture comes from the Internet ;)
 
 ### Screenshot
 
